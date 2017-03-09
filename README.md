@@ -1,6 +1,18 @@
 # clean_slate
 Everything I need to set up a new machine into a familiar environment
 
+# general bash stuff I prefer
+~~~bash
+export VISUAL=vim
+export EDITOR="$VISUAL"
+~~~
+
+# git setup
+~~~bash
+git config --global user.name "msiddorn"
+git config --global user.email msiddorn@cisco.com
+~~~
+
 # vim add-ons
 ~~~bash
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
